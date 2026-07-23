@@ -24,6 +24,17 @@ This project analyzes e-commerce sales data using Microsoft Power BI to transfor
 - Python
 - Jupyter Notebook
 
+## Prerequisites
+
+To explore and run this project, you will need:
+
+- Microsoft Power BI Desktop
+- Python 3.x
+- Jupyter Notebook
+- Required Python libraries used in the analysis notebook
+
+The Power BI dashboard can be opened using the `.pbix` file included in this repository.
+
 ## Key Business Insights
 
 - 💰 **Total Revenue:** 8M
@@ -48,6 +59,14 @@ This project analyzes e-commerce sales data using Microsoft Power BI to transfor
 2. Open the file using Microsoft Power BI Desktop.
 3. Explore the interactive dashboard using the available visuals, filters, and charts.
 4. Use the dashboard to analyze revenue trends, order performance, customer activity, and product performance.
+
+## Future Enhancements
+
+- Add interactive customer segmentation analysis
+- Include geographical sales analysis
+- Add profit and profit-margin KPIs
+- Develop additional time-based sales comparisons
+- Publish the dashboard to Power BI Service for online access
 
 ## Dashboard Insights
 
