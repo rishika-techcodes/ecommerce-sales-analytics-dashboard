@@ -4,19 +4,21 @@
 
 ![E-Commerce Sales Analytics Dashboard](dashboard-preview.png)
 
-## Project Overview
+## 📌 Project Overview
 
-This project analyzes e-commerce sales data using Microsoft Power BI to transform raw data into meaningful business insights. An interactive dashboard was developed to monitor sales performance, revenue trends, customer activity, and product performance. The project demonstrates data cleaning, transformation, visualization, and business intelligence techniques to support data-driven decision-making.
+This project analyzes e-commerce sales data using **Microsoft Power BI** to transform raw data into meaningful business insights. An interactive dashboard was developed to monitor sales performance, revenue trends, customer activity, and product performance.
 
-## Features
+The project demonstrates **data cleaning, data transformation, data visualization, and business intelligence techniques** to support data-driven decision-making.
 
-- Total Revenue Analysis
-- Total Orders Tracking
-- Customer Analysis
-- Monthly Revenue Trends
-- Top-Selling Products
+## 🚀 Features
 
-🛠️ Tools & Technologies
+- 💰 Total Revenue Analysis
+- 🛒 Total Orders Tracking
+- 👥 Customer Analysis
+- 📈 Monthly Revenue Trend Analysis
+- 📦 Top-Selling Product Analysis
+
+## 🛠️ Tools & Technologies
 
 - Power BI
 - Power Query
@@ -24,7 +26,7 @@ This project analyzes e-commerce sales data using Microsoft Power BI to transfor
 - Python
 - Jupyter Notebook
 
-📋 Prerequisites
+## 📋 Prerequisites
 
 To explore and run this project, you will need:
 
@@ -35,49 +37,51 @@ To explore and run this project, you will need:
 
 The Power BI dashboard can be opened using the `.pbix` file included in this repository.
 
+## 📂 Project Structure
 
-📂 Project Structure
-📊 Ecommerce-Analytics-Project.pbix — Interactive Power BI dashboard and data visualization
-🐍 analysis.ipynb — Python-based data analysis and exploratory analysis
-🖼️ dashboard-preview.png — Main Power BI dashboard preview
-📈 monthly revenue trend_output.png — Monthly revenue trend analysis
-📦 Top 10 selling products_output.png — Top-selling product analysis
-👥 Top 10 Customers by Spending_output.png — Customer spending analysis
-🧩 Customer Segmentation pie chart_output.png — Customer segmentation analysis
+- 📊 `Ecommerce-Analytics-Project.pbix` — Interactive Power BI dashboard and data visualization
+- 🐍 `analysis.ipynb` — Python-based data analysis and exploratory analysis
+- 🖼️ `dashboard-preview.png` — Main Power BI dashboard preview
+- 📈 `monthly revenue trend_output.png` — Monthly revenue trend analysis
+- 📦 `Top 10 selling products_output.png` — Top-selling product analysis
+- 👥 `Top 10 Customers by Spending_output.png` — Customer spending analysis
+- 🧩 `Customer Segmentation pie chart_output.png` — Customer segmentation analysis
 
-📊 Key Business Insights
+## 📊 Key Business Insights
 
 The analysis provides the following key insights:
 
-💰 Total Revenue: 8M
-🛒 Total Orders: 24K
-👥 Total Customers: 4K
-📦 Top-Selling Product: White Hanging Heart T-Light Holder
-📈 Revenue Trend: Higher sales activity was observed toward the end of the year, with several significant revenue spikes.
+- 💰 **Total Revenue:** 8M
+- 🛒 **Total Orders:** 24K
+- 👥 **Total Customers:** 4K
+- 📦 **Top-Selling Product:** White Hanging Heart T-Light Holder
+- 📈 **Revenue Trend:** Higher sales activity was observed toward the end of the year, with several significant revenue spikes.
 
-📈 Dashboard Insights
+## 📈 Dashboard Insights
 
 The dashboard provides an interactive view of e-commerce business performance, helping users understand:
 
-Revenue trends
-Customer activity
-Order volume
-Product performance
-Overall business performance
+- Revenue trends
+- Customer activity
+- Order volume
+- Product performance
+- Overall business performance
 
 The visualizations support data-driven analysis and provide a clear overview of key business metrics.
 
-▶️ How to Use the Project
-Download the Ecommerce-Analytics-Project.pbix file from this repository.
-Open the file using Microsoft Power BI Desktop.
-Explore the interactive dashboard using the available visuals, filters, and charts.
-Use the dashboard to analyze revenue trends, order performance, customer activity, and product performance.
-Open analysis.ipynb in Jupyter Notebook to explore the Python-based analysis.
+## ▶️ How to Use the Project
 
-🔮 Future Enhancements
-Add interactive customer segmentation analysis.
-Include geographical sales analysis.
-Add profit and profit-margin KPIs.
-Develop additional time-based sales comparisons.
-Add advanced customer behavior analysis.
-Publish the dashboard to Power BI Service for online access.
+1. Download the `Ecommerce-Analytics-Project.pbix` file from this repository.
+2. Open the file using **Microsoft Power BI Desktop**.
+3. Explore the interactive dashboard using the available visuals, filters, and charts.
+4. Use the dashboard to analyze revenue trends, order performance, customer activity, and product performance.
+5. Open `analysis.ipynb` in Jupyter Notebook to explore the Python-based analysis.
+
+## 🔮 Future Enhancements
+
+- Add interactive customer segmentation analysis.
+- Include geographical sales analysis.
+- Add profit and profit-margin KPIs.
+- Develop additional time-based sales comparisons.
+- Add advanced customer behavior analysis.
+- Publish the dashboard to Power BI Service for online access.
