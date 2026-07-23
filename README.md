@@ -41,3 +41,14 @@ This project analyzes e-commerce sales data using Microsoft Power BI to transfor
 - 📦 `Top 10 selling products_output.png` — Top-selling product analysis
 - 👥 `Top 10 Customers by Spending_output.png` — Customer spending analysis
 - 🧩 `Customer Segmentation pie chart_output.png` — Customer segmentation analysis
+
+## How to Use the Project
+
+1. Download the `Ecommerce-Analytics-Project.pbix` file from this repository.
+2. Open the file using Microsoft Power BI Desktop.
+3. Explore the interactive dashboard using the available visuals, filters, and charts.
+4. Use the dashboard to analyze revenue trends, order performance, customer activity, and product performance.
+
+## Dashboard Insights
+
+The dashboard provides an interactive view of e-commerce business performance, helping users understand revenue trends, customer behavior, order volume, and product performance. The visualizations support data-driven analysis and provide a clear overview of key business metrics.
