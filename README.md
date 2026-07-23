@@ -85,3 +85,21 @@ The visualizations support data-driven analysis and provide a clear overview of 
 - Develop additional time-based sales comparisons.
 - Add advanced customer behavior analysis.
 - Publish the dashboard to Power BI Service for online access.
+
+## 📸 Project Visualizations
+
+### 📈 Monthly Revenue Trend
+
+![Monthly Revenue Trend](monthly%20revenue%20trend_output.png)
+
+### 📦 Top 10 Selling Products
+
+![Top 10 Selling Products](Top%2010%20selling%20products_output.png)
+
+### 👥 Top 10 Customers by Spending
+
+![Top 10 Customers by Spending](Top%2010%20Customers%20by%20Spending_output.png)
+
+### 🧩 Customer Segmentation
+
+![Customer Segmentation](Customer%20Segmentation%20pie%20chart_output.png)
