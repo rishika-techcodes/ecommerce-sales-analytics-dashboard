@@ -58,7 +58,7 @@ To explore and run this project, you will need:
 ## 📁 Project Structure
 
 ```text
-ecommerce-sales-analytics-dashboard/
+ ecommerce-sales-analytics-dashboard/
 │
 ├── dashboard/
 │   └── ecommerce-dashboard.pbix          # Interactive Power BI dashboard
