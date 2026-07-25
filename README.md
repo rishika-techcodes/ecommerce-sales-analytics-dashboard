@@ -127,7 +127,3 @@ Open notebooks/ecommerce-analysis.ipynb in Jupyter Notebook to review the Python
 This project is licensed under the MIT License.
 
 See the LICENSE file for more information.
-Business insight communication
-📄 License
-
-This project is licensed under the MIT License — see the LICENSE file for details.
