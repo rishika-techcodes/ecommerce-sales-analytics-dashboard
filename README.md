@@ -76,62 +76,48 @@ To explore and run this project, you will need:
 └── README.md
 ```
 ```
-## 📊 Key Business Insights
-
-- 💰 **Total Revenue:** 8M
-- 🛒 **Total Orders:** 24K
-- 👥 **Total Customers:** 4K
-- 📦 **Top-Selling Product:** White Hanging Heart T-Light Holder
-- 📈 **Revenue Trend:** Higher sales activity was observed toward the end of the year, with several significant revenue spikes.
-
-## 📈 Dashboard Insights
+📊 Key Business Insights
+💰 Total Revenue: 8M
+🛒 Total Orders: 24K
+👥 Total Customers: 4K
+📦 Top-Selling Product: White Hanging Heart T-Light Holder
+📈 Revenue Trend: Higher sales activity was observed toward the end of the year, with several significant revenue spikes.
+📈 Dashboard Insights
 
 The dashboard provides an interactive view of e-commerce business performance, helping users understand:
 
-- Revenue trends
-- Customer activity
-- Order volume
-- Product performance
-- Overall business performance
-
-## ▶️ How to Use the Project
-
-1. Download `dashboard/ecommerce-dashboard.pbix` from this repository.
-2. Open the file using **Microsoft Power BI Desktop**.
-3. Explore the interactive dashboard using the available visuals, filters, and charts.
-4. Open `notebooks/ecommerce-analysis.ipynb` in Jupyter Notebook to explore the Python-based analysis.
-
-## 🔮 Future Enhancements
-
-- Add interactive customer segmentation analysis.
-- Include geographical sales analysis.
-- Add profit and profit-margin KPIs.
-- Develop additional time-based sales comparisons.
-- Add advanced customer behavior analysis.
-- Publish the dashboard to Power BI Service for online access.
-
-## 📸 Project Visualizations
-
-### 📈 Monthly Revenue Trend
+Revenue trends
+Customer activity
+Order volume
+Product performance
+Overall business performance
+▶️ How to Use the Project
+Download dashboard/ecommerce-dashboard.pbix from this repository.
+Open the file using Microsoft Power BI Desktop.
+Explore the interactive dashboard using the available visuals, filters, and charts.
+Open notebooks/ecommerce-analysis.ipynb in Jupyter Notebook to explore the Python-based analysis.
+🔮 Future Enhancements
+Add interactive customer segmentation analysis.
+Include geographical sales analysis.
+Add profit and profit-margin KPIs.
+Develop additional time-based sales comparisons.
+Add advanced customer behavior analysis.
+Publish the dashboard to Power BI Service for online access.
+📸 Project Visualizations
+📈 Monthly Revenue Trend
 <img src="images/monthly-revenue-trend.png" alt="Monthly Revenue Trend" width="700">
-
-### 📦 Top 10 Selling Products
+📦 Top 10 Selling Products
 <img src="images/top-products.png" alt="Top 10 Selling Products" width="700">
-
-### 👥 Top 10 Customers by Spending
+👥 Top 10 Customers by Spending
 <img src="images/top-customers.png" alt="Top 10 Customers by Spending" width="700">
-
-### 🧩 Customer Segmentation
+🧩 Customer Segmentation
 <img src="images/customer-segmentation.png" alt="Customer Segmentation" width="700">
+🧠 Skills Demonstrated
+Data cleaning & transformation (Power Query)
+DAX measure design & KPI modeling
+Interactive dashboard design (Power BI)
+Exploratory data analysis (Python, pandas)
+Business insight communication
+📄 License
 
-## 🧠 Skills Demonstrated
-
-- Data cleaning & transformation (Power Query)
-- DAX measure design & KPI modeling
-- Interactive dashboard design (Power BI)
-- Exploratory data analysis (Python, pandas)
-- Business insight communication
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License — see the LICENSE file for details.
