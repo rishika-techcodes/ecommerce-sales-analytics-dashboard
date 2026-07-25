@@ -55,8 +55,9 @@ To explore and run this project, you will need:
 - Jupyter Notebook
 - Required Python libraries used in the analysis notebook (pandas, matplotlib, etc.)
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```text
 ecommerce-sales-analytics-dashboard/
 │
 ├── dashboard/
@@ -73,6 +74,7 @@ ecommerce-sales-analytics-dashboard/
 │   └── customer-segmentation.png         # Customer segmentation visual
 │
 └── README.md
+```
 ```
 ## 📊 Key Business Insights
 
