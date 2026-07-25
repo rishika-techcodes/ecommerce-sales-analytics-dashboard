@@ -1,14 +1,34 @@
-# E-Commerce Sales Analytics Dashboard
+# 📊 E-Commerce Sales Analytics Dashboard
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-Power%20BI-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+An interactive Power BI dashboard that transforms raw e-commerce transaction data into actionable business insights — covering revenue trends, customer behavior, order performance, and top-selling products.
 
 ## Dashboard Preview
 
-![E-Commerce Sales Analytics Dashboard](dashboard-preview.png)
+<img src="images/dashboard-preview.png" alt="Dashboard Preview" width="800">
 
 ## 📌 Project Overview
 
 This project analyzes e-commerce sales data using **Microsoft Power BI** to transform raw data into meaningful business insights. An interactive dashboard was developed to monitor sales performance, revenue trends, customer activity, and product performance.
 
-The project demonstrates **data cleaning, data transformation, data visualization, and business intelligence techniques** to support data-driven decision-making.
+The project demonstrates **data cleaning, data transformation, DAX-based KPI calculation, data visualization, and exploratory analysis in Python** to support data-driven decision-making.
+
+## 🗂️ Data Source
+
+- Dataset: e-commerce transaction-level sales data (orders, customers, products, revenue)
+- *(Add: where the data came from, date range covered, and row/record count once finalized)*
+
+## 🧹 Methodology
+
+1. **Data Cleaning & Transformation** — Power Query was used to clean and reshape raw transaction data (handling nulls, standardizing date/customer fields, removing duplicates).
+2. **KPI Modeling** — DAX measures were built to calculate revenue, order counts, customer counts, and time-based trends.
+3. **Exploratory Analysis** — A Python/Jupyter notebook (`notebooks/ecommerce-analysis.ipynb`) was used to explore the dataset ahead of dashboard design.
+4. **Dashboard Design** — Visuals were built in Power BI to surface trends, top performers, and customer segments interactively.
 
 ## 🚀 Features
 
@@ -33,23 +53,23 @@ To explore and run this project, you will need:
 - Microsoft Power BI Desktop
 - Python 3.x
 - Jupyter Notebook
-- Required Python libraries used in the analysis notebook
-
-The Power BI dashboard can be opened using the `.pbix` file included in this repository.
+- Required Python libraries used in the analysis notebook (pandas, matplotlib, etc.)
 
 ## 📂 Project Structure
-
-- 📊 `Ecommerce-Analytics-Project.pbix` — Interactive Power BI dashboard and data visualization
-- 🐍 `analysis.ipynb` — Python-based data analysis and exploratory analysis
-- 🖼️ `dashboard-preview.png` — Main Power BI dashboard preview
-- 📈 `monthly revenue trend_output.png` — Monthly revenue trend analysis
-- 📦 `Top 10 selling products_output.png` — Top-selling product analysis
-- 👥 `Top 10 Customers by Spending_output.png` — Customer spending analysis
-- 🧩 `Customer Segmentation pie chart_output.png` — Customer segmentation analysis
+ecommerce-sales-analytics-dashboard/
+├── dashboard/
+│ └── ecommerce-dashboard.pbix # Interactive Power BI dashboard
+├── notebooks/
+│ └── ecommerce-analysis.ipynb # Python-based exploratory analysis
+├── images/
+│ ├── dashboard-preview.png # Main dashboard preview
+│ ├── monthly-revenue-trend.png # Monthly revenue trend visual
+│ ├── top-products.png # Top-selling products visual
+│ ├── top-customers.png # Top customers by spending visual
+│ └── customer-segmentation.png # Customer segmentation visual
+└── README.md
 
 ## 📊 Key Business Insights
-
-The analysis provides the following key insights:
 
 - 💰 **Total Revenue:** 8M
 - 🛒 **Total Orders:** 24K
@@ -67,15 +87,12 @@ The dashboard provides an interactive view of e-commerce business performance, h
 - Product performance
 - Overall business performance
 
-The visualizations support data-driven analysis and provide a clear overview of key business metrics.
-
 ## ▶️ How to Use the Project
 
-1. Download the `Ecommerce-Analytics-Project.pbix` file from this repository.
+1. Download `dashboard/ecommerce-dashboard.pbix` from this repository.
 2. Open the file using **Microsoft Power BI Desktop**.
 3. Explore the interactive dashboard using the available visuals, filters, and charts.
-4. Use the dashboard to analyze revenue trends, order performance, customer activity, and product performance.
-5. Open `analysis.ipynb` in Jupyter Notebook to explore the Python-based analysis.
+4. Open `notebooks/ecommerce-analysis.ipynb` in Jupyter Notebook to explore the Python-based analysis.
 
 ## 🔮 Future Enhancements
 
@@ -89,17 +106,25 @@ The visualizations support data-driven analysis and provide a clear overview of 
 ## 📸 Project Visualizations
 
 ### 📈 Monthly Revenue Trend
-
-![Monthly Revenue Trend](monthly%20revenue%20trend_output.png)
+<img src="images/monthly-revenue-trend.png" alt="Monthly Revenue Trend" width="700">
 
 ### 📦 Top 10 Selling Products
-
-![Top 10 Selling Products](Top%2010%20selling%20products_output.png)
+<img src="images/top-products.png" alt="Top 10 Selling Products" width="700">
 
 ### 👥 Top 10 Customers by Spending
-
-![Top 10 Customers by Spending](Top%2010%20Customers%20by%20Spending_output.png)
+<img src="images/top-customers.png" alt="Top 10 Customers by Spending" width="700">
 
 ### 🧩 Customer Segmentation
+<img src="images/customer-segmentation.png" alt="Customer Segmentation" width="700">
 
-![Customer Segmentation](Customer%20Segmentation%20pie%20chart_output.png)
+## 🧠 Skills Demonstrated
+
+- Data cleaning & transformation (Power Query)
+- DAX measure design & KPI modeling
+- Interactive dashboard design (Power BI)
+- Exploratory data analysis (Python, pandas)
+- Business insight communication
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
