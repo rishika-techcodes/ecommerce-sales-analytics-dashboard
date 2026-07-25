@@ -56,19 +56,24 @@ To explore and run this project, you will need:
 - Required Python libraries used in the analysis notebook (pandas, matplotlib, etc.)
 
 ## 📂 Project Structure
-ecommerce-sales-analytics-dashboard/
-├── dashboard/
-│ └── ecommerce-dashboard.pbix # Interactive Power BI dashboard
-├── notebooks/
-│ └── ecommerce-analysis.ipynb # Python-based exploratory analysis
-├── images/
-│ ├── dashboard-preview.png # Main dashboard preview
-│ ├── monthly-revenue-trend.png # Monthly revenue trend visual
-│ ├── top-products.png # Top-selling products visual
-│ ├── top-customers.png # Top customers by spending visual
-│ └── customer-segmentation.png # Customer segmentation visual
-└── README.md
 
+ecommerce-sales-analytics-dashboard/
+│
+├── dashboard/
+│   └── ecommerce-dashboard.pbix          # Interactive Power BI dashboard
+│
+├── notebooks/
+│   └── ecommerce-analysis.ipynb          # Python-based exploratory analysis
+│
+├── images/
+│   ├── dashboard-preview.png             # Main dashboard preview
+│   ├── monthly-revenue-trend.png         # Monthly revenue trend visual
+│   ├── top-products.png                  # Top-selling products visual
+│   ├── top-customers.png                 # Top customers by spending visual
+│   └── customer-segmentation.png         # Customer segmentation visual
+│
+└── README.md
+```
 ## 📊 Key Business Insights
 
 - 💰 **Total Revenue:** 8M
