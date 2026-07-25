@@ -75,7 +75,6 @@ To explore and run this project, you will need:
 │
 └── README.md
 ```
-```
 📊 Key Business Insights
 💰 Total Revenue: 8M
 🛒 Total Orders: 24K
@@ -84,39 +83,50 @@ To explore and run this project, you will need:
 📈 Revenue Trend: Higher sales activity was observed toward the end of the year, with several significant revenue spikes.
 📈 Dashboard Insights
 
-The dashboard provides an interactive view of e-commerce business performance, helping users understand:
+The interactive Power BI dashboard provides a comprehensive view of e-commerce business performance, enabling users to:
 
-Revenue trends
-Customer activity
-Order volume
-Product performance
-Overall business performance
+📊 Analyze revenue trends
+👥 Monitor customer activity
+🛒 Track order volume
+📦 Evaluate product performance
+📈 Measure overall business performance
 ▶️ How to Use the Project
 Download dashboard/ecommerce-dashboard.pbix from this repository.
 Open the file using Microsoft Power BI Desktop.
-Explore the interactive dashboard using the available visuals, filters, and charts.
-Open notebooks/ecommerce-analysis.ipynb in Jupyter Notebook to explore the Python-based analysis.
+Explore the dashboard using the interactive filters, slicers, and charts.
+Open notebooks/ecommerce-analysis.ipynb in Jupyter Notebook to review the Python-based data analysis.
 🔮 Future Enhancements
-Add interactive customer segmentation analysis.
-Include geographical sales analysis.
-Add profit and profit-margin KPIs.
-Develop additional time-based sales comparisons.
-Add advanced customer behavior analysis.
-Publish the dashboard to Power BI Service for online access.
+📌 Add interactive customer segmentation analysis.
+🌍 Include geographical sales analysis.
+💰 Add profit and profit-margin KPIs.
+📅 Develop month-over-month and year-over-year sales comparisons.
+🤖 Perform advanced customer behaviour analysis.
+☁️ Publish the dashboard to Power BI Service for online access.
 📸 Project Visualizations
+📊 Dashboard Preview
+<p align="center"> <img src="images/dashboard-preview.png" alt="Dashboard Preview" width="900"> </p>
 📈 Monthly Revenue Trend
-<img src="images/monthly-revenue-trend.png" alt="Monthly Revenue Trend" width="700">
+<p align="center"> <img src="images/monthly-revenue-trend.png" alt="Monthly Revenue Trend" width="700"> </p>
 📦 Top 10 Selling Products
-<img src="images/top-products.png" alt="Top 10 Selling Products" width="700">
+<p align="center"> <img src="images/top-products.png" alt="Top 10 Selling Products" width="700"> </p>
 👥 Top 10 Customers by Spending
-<img src="images/top-customers.png" alt="Top 10 Customers by Spending" width="700">
+<p align="center"> <img src="images/top-customers.png" alt="Top 10 Customers by Spending" width="700"> </p>
 🧩 Customer Segmentation
-<img src="images/customer-segmentation.png" alt="Customer Segmentation" width="700">
+<p align="center"> <img src="images/customer-segmentation.png" alt="Customer Segmentation" width="700"> </p>
 🧠 Skills Demonstrated
-Data cleaning & transformation (Power Query)
-DAX measure design & KPI modeling
-Interactive dashboard design (Power BI)
-Exploratory data analysis (Python, pandas)
+✅ Power BI Dashboard Development
+✅ Data Cleaning & Transformation (Power Query)
+✅ DAX Measure Creation & KPI Design
+✅ Exploratory Data Analysis using Python (Pandas)
+✅ Business Intelligence & Data Visualization
+✅ Customer Segmentation Analysis
+✅ Sales Trend & Product Performance Analysis
+✅ Business Insight Communication
+📄 License
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for more information.
 Business insight communication
 📄 License
 
