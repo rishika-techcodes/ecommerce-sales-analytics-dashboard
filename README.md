@@ -61,10 +61,10 @@ To explore and run this project, you will need:
  ecommerce-sales-analytics-dashboard/
 │
 ├── dashboard/
-│   └── ecommerce-dashboard.pbix          # Interactive Power BI dashboard
+│   └── dashboard/Ecommerce-Analytics-Project.pbix         # Interactive Power BI dashboard
 │
 ├── notebooks/
-│   └── ecommerce-analysis.ipynb          # Python-based exploratory analysis
+│   └── analysis.ipynb        # Python-based exploratory analysis
 │
 ├── images/
 │   ├── dashboard-preview.png             # Main dashboard preview
