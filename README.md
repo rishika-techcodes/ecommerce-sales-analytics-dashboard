@@ -20,14 +20,18 @@ The project demonstrates **data cleaning, data transformation, DAX-based KPI cal
 
 ## 🗂️ Data Source
 
-- Dataset: e-commerce transaction-level sales data (orders, customers, products, revenue)
-- *(Add: where the data came from, date range covered, and row/record count once finalized)*
+- **Dataset:** Online Retail II
+- **Source:** UCI Machine Learning Repository
+- **Link:** https://archive.ics.uci.edu/dataset/502/online+retail+ii
+- **Date Range:** December 2009 – December 2011
+- **Description:** Transaction-level data from a UK-based, non-store online retailer specializing in unique all-occasion gift-ware. Many of the retailer's customers are wholesalers.
+- **Fields:** Invoice number, stock code, product description, quantity, invoice date, unit price, customer ID, and country
 
 ## 🧹 Methodology
 
 1. **Data Cleaning & Transformation** — Power Query was used to clean and reshape raw transaction data (handling nulls, standardizing date/customer fields, removing duplicates).
 2. **KPI Modeling** — DAX measures were built to calculate revenue, order counts, customer counts, and time-based trends.
-3. **Exploratory Analysis** — A Python/Jupyter notebook (`notebooks/ecommerce-analysis.ipynb`) was used to explore the dataset ahead of dashboard design.
+3. **Exploratory Analysis** — A Python/Jupyter notebook (`notebooks/analysis.ipynb`) was used to explore the dataset ahead of dashboard design.
 4. **Dashboard Design** — Visuals were built in Power BI to surface trends, top performers, and customer segments interactively.
 
 ## 🚀 Features
@@ -61,7 +65,7 @@ To explore and run this project, you will need:
  ecommerce-sales-analytics-dashboard/
 │
 ├── dashboard/
-│   └── dashboard/Ecommerce-Analytics-Project.pbix         # Interactive Power BI dashboard
+│   └── │   └── Ecommerce-Analytics-Project.pbix         # Interactive Power BI dashboard       
 │
 ├── notebooks/
 │   └── analysis.ipynb        # Python-based exploratory analysis
@@ -95,10 +99,10 @@ The dashboard provides an interactive view of e-commerce business performance, h
 
 ## ▶️ How to Use the Project
 
-1. Download `dashboard/ecommerce-dashboard.pbix` from this repository.
+1. Download `dashboard/Ecommerce-Analytics-Project.pbix` from this repository.
 2. Open the file using **Microsoft Power BI Desktop**.
 3. Explore the interactive dashboard using the available visuals, filters, and charts.
-4. Open `notebooks/ecommerce-analysis.ipynb` in Jupyter Notebook to explore the Python-based analysis.
+4. Open `notebooks/analysis.ipynb` in Jupyter Notebook to explore the Python-based analysis.
 
 ## 🔮 Future Enhancements
 
